@@ -6,7 +6,7 @@ int main()
 	scanf("%s",s);
 	for(int i=0;i<20;i++){
 		if(s[i]>='a'&&s[i]<='z')s[i]+='A'-'a';
-		else if(s[i]>'A'&&s[i]<='Z')s[i]+='a'-'A';
+		else if(s[i]>='A'&&s[i]<='Z')s[i]+='a'-'A';
 	}
 	printf("%s\n",s);
 }
